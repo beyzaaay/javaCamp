@@ -24,6 +24,7 @@ public class JobTitlesController {
 	
 	@GetMapping("/getall")
 	public List<JobTitle> getAll(){
+		
 		return jobTitleService.getAll();
 	}
 }
